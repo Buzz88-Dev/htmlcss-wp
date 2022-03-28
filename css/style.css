@@ -13,14 +13,9 @@ body {
 /* header */
 
 header {
-    height: 150px;
-    margin-bottom: 17px;
-}
-
-nav {
+    height: 120px;
+    margin-bottom: 20px;
     color: grey;
-    border-radius: 10px;
-
 }
 
 .logo {
@@ -29,7 +24,7 @@ nav {
 
 ul {
     list-style-type: none;
-    margin: 40px 0px 0px 0px;
+    padding-top: 30px;
     overflow: hidden;
   }
   
@@ -50,7 +45,7 @@ ul {
 .image {
     background-image: url(../img/banner.jpg);
     background-position: center;
-    opacity: 0.9;
+    filter: brightness(80%);
     height: 400px;
     border-radius: 10px;
     padding-top: 250px;
@@ -59,14 +54,10 @@ ul {
 }
 
 /* central-block */
-.centralblock {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
 
 .leadership {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .row {
@@ -93,12 +84,11 @@ ul {
     margin: 0px 5%;
 }
 
-
 .background {
     height: 250px;
     background-position: center;
     border-radius: 10px;
-    filter: grayscale(75%);
+    filter: brightness(70%);
 }
 
 .sfondo1 {
@@ -113,14 +103,14 @@ ul {
     background-image: url(../img/img-3.jpg);
 }
 
-.centralblock p {
-    margin-top: 10px;
+.row p, .leadership p {
     color: grey;
 }
 
 h3 {
     margin-top: 20px;
-    color: rgb(56, 48, 48);
+    color: rgb(95, 82, 82);
+    margin-bottom: 20px;
 }
 
 /* footer */
@@ -131,5 +121,6 @@ footer {
 }
 
 span {
+    font-size: 30px;
     color: red;
 }
